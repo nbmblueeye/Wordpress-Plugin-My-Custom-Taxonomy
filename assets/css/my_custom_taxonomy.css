@@ -1,0 +1,147 @@
+.my_custom_taxonomy_save_btn{
+    padding: 0.5rem 1rem;
+    color:#fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.15rem;
+    transition: all 0.3s;
+    background-color: rgb(113, 113, 241);
+}
+
+.my_custom_taxonomy_save_btn:hover{
+    transform: scale(1.1);
+    
+}
+
+.my_custom_taxonomy_action_btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+.save_taxonomy{
+    background-color: rgb(113, 113, 241);
+}
+
+.update_taxonomy{
+    background-color: rgb(26, 214, 214);
+}
+
+
+
+.my_custom_taxonomy_container{
+    max-width: 600px;
+    margin: 5rem auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.my_custom_taxonomy_header{
+    text-align: center;margin-bottom: 2rem;
+}
+
+.my_custom_taxonomy_content .form_group{
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.my_custom_taxonomy_content label{
+    text-align: end;
+    padding-right: 20px;
+}
+
+.my_custom_taxonomy_message{
+    color: rgb(10, 241, 87);
+    background-color: rgb(195, 235, 235);
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+
+.my_custom_taxonomy_error{
+    background-color: rgb(221, 113, 24);
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+.my_custom_taxonomy_content .form_group_radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.my_custom_taxonomy_content .form_group_radio Label{
+   text-align: start;
+   margin-bottom: 1rem;
+}
+
+
+.my_custom_taxonomy_content .form_group_radio .radio_box{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.my_custom_taxonomy_content{
+    box-shadow: rgba(91, 122, 129, 0.3) 0px 19px 38px, rgba(82, 153, 165, 0.22) 0px 15px 12px;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+/* <-============== Update Page =============-> */
+
+.my_custom_taxonomy_action_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.action_btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thin solid #111;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.action_btn:hover{
+    transform: scale(1.05);
+}
+
+.edit_btn span{
+    color: rgb(21, 159, 214);
+}
+
+.delete_btn span{
+    color: rgb(197, 56, 31);
+}
+
+
+.my_custom_taxonomy_update_message{
+    color: rgb(10, 241, 87);
+    background-color: rgb(195, 235, 235);
+    padding: 5px;
+    margin: 0.5rem 0;
+}
+
+.my_custom_taxonomy_update_error{
+    background-color: rgb(221, 113, 24);
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+
